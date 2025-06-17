@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.hero-section {
+    
+    background-size: cover;
+    background-position: center;
+}
+
+.latest-reviews .card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.latest-reviews .card:hover {
+    transform: scale(1.05);
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
